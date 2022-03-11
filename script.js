@@ -8,8 +8,7 @@
  * Do basic math.
  */
 function doMathClicked() {
-  // this function does basic math
   
-document.getElementById('multiply-math').innerHTML ='<p> 5 × 3 = ' + (5 * 3) + '</p>'
-document.getElementById('add-math').innerHTML ='<p> 5 + 3 + 5 + 3= ' + (5 + 3 + 5 + 3) + '</p>'
+document.getElementById('multiply-math').innerHTML ='<p> 5 × 3 =' + (5 * 3) + '</p>'
+document.getElementById('add-math').innerHTML ='<p> 5 + 3 + 5 + 3=' + (5 + 3 + 5 + 3) + '</p>'
 }
